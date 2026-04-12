@@ -7,8 +7,9 @@ export default function FooterSection() {
             <div className="mx-auto max-w-5xl px-6">
                 <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
                     <div className="max-w-sm space-y-3">
-                        <Link href="/" aria-label="go home" className="text-xl font-semibold">
-                            Ceyliz
+                        <Link href="/" aria-label="go home" className="inline-flex items-center overflow-hidden">
+                            <img src="/logo-light-mode.svg" alt="Ceyliz logo" className="h-10 w-[130px] object-cover object-left dark:hidden" />
+                            <img src="/logo-dark-mode.svg" alt="Ceyliz logo" className="hidden h-10 w-[130px] object-cover object-left dark:block" />
                         </Link>
                         <p className="text-muted-foreground text-sm">AI Automation for Small Businesses</p>
                     </div>

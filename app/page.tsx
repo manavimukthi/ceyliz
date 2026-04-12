@@ -3,6 +3,7 @@ import DemoOne from '@/components/ui/demo'
 import { Features } from '@/components/blocks/features-4'
 import IntegrationsSection from '@/components/blocks/integrations'
 import TestimonialSection from '@/components/blocks/testimonials'
+import { Blog8Demo } from '@/components/blocks/blog8-demo'
 import Pricing from '@/components/blocks/pricing'
 import FAQSection from '@/components/blocks/faq'
 import TeamSection from '@/components/blocks/team'
@@ -18,6 +19,7 @@ export default function Home() {
       <IntegrationsSection />
       <Pricing />
       <TestimonialSection />
+      <Blog8Demo />
       <FAQSection />
       <TeamSection />
       <CallToAction />
